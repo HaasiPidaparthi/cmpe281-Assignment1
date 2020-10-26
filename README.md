@@ -14,13 +14,13 @@ Run the VM. Verify that nested virtualization is enabled by using the command **
 
 ### Steps used for this assignment
 * Install packages to run this assignment using the following commands on terminal
-      * Install Github: sudo apt-get install git
-      * Install Make: sudo apt-get install make
+     * Install Github: sudo apt-get install git
+     * Install Make: sudo apt-get install make
       
 * Clone the Linux repository using the following link: git clone https://github.com/torvalds/linux.git
-      * These are the files we will use to run this assignment.
+     * These are the files we will use to run this assignment.
 * Open the folder with the downloaded files
-      * Use the command **ls -latr** to check that all the files are installed from the git repository.
+     * Use the command **ls -latr** to check that all the files are installed from the git repository.
 * Build the code by using the command **make**
 * After we build the code, use the command **ls -latr .**  and check for the file named “cmpe283-1.ko”. This is the kernel object we will load into the kernel.
 
